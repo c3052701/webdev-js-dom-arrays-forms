@@ -29,9 +29,10 @@
         document.querySelector('body').setAttribute('class',"blueBack");
         })
         document.querySelector(".reset").addEventListener('click', function(ev){
-        document.querySelector('body').setAttribute('class',"whiteBack");
+        document.querySelector('body').removeAttribute('class');
         })
         
+    
         
         
     
